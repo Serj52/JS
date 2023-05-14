@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.33%;
+}
+
+/* .col-2-table {
+    width: 16.33%;
+    float: left;
+    padding: 15px;
+    height: 100%;
+} */
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+col-1,
+.col-2,
+/* .col-2-table, */
+.col-3,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+    float: left;
+    padding: 15px;
+}
+
+.wraper::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img {
+    width: 20px;
+}
+
+.bell,
+.search,
+.new_user,
+.account {
+    margin: 5px;
+}
+
+html, body, .wraper {
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+  padding: 0;
+
+}
+
+.col-2-table {
+    height: 100%;
+    background-color: black;
+    color: white;
+    width: 16.33%;
+    float: left;
+    padding: 15px;
+}
+
+.col-10-main {
+    height: 100%;
+    background-color:aquamarine;
+    display: flex;
+    gap: 30px;
+    width: 83.33%;
+    float: left;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+
+.new_user button {
+    border-radius: 25px;
+    padding: 5px 10px;
+    color: white;
+    background-color: blue;
+}
+
+
+.account,
+.search,
+.bell {
+    border-color: transparent;
+    border-radius: 100%;
+    /* display: inline-block; */
+}
+
+.account>button,
+.search>button,
+.bell>button {
+    border-color: transparent;
+    /* display: inline-block; */
+    border-radius: 100%;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+}
+
+.team{
+    font-weight: 900;
+    font-size: larger;
+    padding: 5px;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 4fr auto auto auto auto;
+    align-items: center;
+}
+
+.filter {
+    display: grid;
+    grid-template-columns: auto auto 4fr auto auto;
+    align-items: center;
+
+}
+
+.filter button, .filter input {
+    margin-left: 5px;
+    height: 30px;
+    border-radius: 25px;
+    border-color:lightgrey;
+    overflow: hidden;
+    
+}
+
+.col-10-main div{
+    flex-grow: 1;
+    height: 350px;
+    width: 270px;
+    background-color: white;
+    border-radius: 5%;
+}

@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+td.img {
+    width: 20%;
+    padding: 5%;
+}
+
+td.text {
+    padding: 2%;
+}
+
+body {
+    min-height: 100vh
+}
+
+.nav,.main {
+    display: inline-block;
+}
+
+div.nav img {
+    width: 15px;
+    height: 15px;
+}
+
+div.nav {
+    min-width: 20%;
+    background-color: black;
+    min-height: 100vh
+}
+
+div.nav p {
+    font-size: 15px;
+    color: white;
+}
+
+div.main {
+    width: 70%;
+}
+
+
+
+footer {
+    position:absolute;
+    bottom:0;
+    left:0;
+}
