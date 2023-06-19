@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.main div {
+  height: 100px;
+  width: 100px;
+  background-color: #b3db4d;
+}
+
+/*# sourceMappingURL=style.css.map */

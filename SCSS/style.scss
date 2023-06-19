@@ -1,0 +1,15 @@
+
+$onecolor:aqua;
+$twocolor:rgb(255, 204, 0);
+$variable: background-color;
+
+.main {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    div {
+        height: 100px;
+        width: 100px;
+        #{$variable}: mix($onecolor, $twocolor, 30%) ;
+    }
+}
